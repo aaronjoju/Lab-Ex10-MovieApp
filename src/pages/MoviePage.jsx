@@ -78,7 +78,7 @@ function MoviePage() {
     </div>
     <div className="synopsis">
       <p>{movieData?.Plot}</p>
-      <i className="gg-play-button-o"></i>
+      {/* <i className="gg-play-button-o"></i> */}
     </div>
   </div>
 </div>

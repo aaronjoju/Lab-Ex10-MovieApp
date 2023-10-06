@@ -1,9 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import MoviePage from './pages/MoviePage';
-import AboutPage from './pages/AboutPage';
-import Home from './pages/Home';
-import ContactPage from './pages/ContactPage';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
@@ -13,8 +9,6 @@ function App() {
       <Routes>
         <Route path='/' element={<MoviePage/>}/>
         <Route path='/movies' element={<MoviePage/>}/>
-        <Route path='/about' element={<AboutPage/>}/>
-        <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
     </BrowserRouter>
     </>
